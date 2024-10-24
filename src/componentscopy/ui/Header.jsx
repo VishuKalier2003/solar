@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {Button} from "../ui/Button";
 import MobileNav from "../MobileNav";
+import React from "react";
 
 //components
 import Nav from "./Nav";

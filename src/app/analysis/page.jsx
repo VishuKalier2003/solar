@@ -4,7 +4,7 @@ import Footer from "@/container/Footer";
 import { HeroParallaxDemo } from "@/container/HeroParallax";
 import { TypewriterEffectSmoothDemo } from "@/container/typewriterAnalysis";
 import { TypewriterEffectSmoothDemo1 } from "@/container/typewriterAnalysisI";
-import react from "react";
+import React from "react";
 
 export default function Home() {
     return(

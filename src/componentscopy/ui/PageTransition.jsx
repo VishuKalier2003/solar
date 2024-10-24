@@ -2,13 +2,14 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import React from "react";
 
 const PageTransition = ({children}) => {
     const pathname = usePathname();
     return (
-        <AnimatePresence> 
+        <AnimatePresence>
            <div key={pathname}>
-            <motion.div 
+            <motion.div
             initial={{opacity: 1}}
             animate={{
                 opacity: 0,
@@ -21,5 +22,5 @@ const PageTransition = ({children}) => {
         </AnimatePresence>
     );
 };
-    
+
     export default PageTransition;
